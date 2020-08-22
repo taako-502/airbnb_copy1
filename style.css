@@ -1,8 +1,18 @@
 @charset "UTF-8";
+/* 全体設定 */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+img {
+  max-width: 100%;
+}
 /* ヘッダー */
 div.header-img{
   background-image: url('images/nav-img.jpg');
-  background-size:cover;
+  background-size: cover;
+  background-position: center
+  box-sizing:border-box;
   height: 380px;
   padding-left: 50px;
   display:flex;
@@ -11,6 +21,14 @@ div.header-img{
 div.header-img h1 {
   color:white;
 }
+/* メイン */
+button#start{
+  background-color: magenta;
+  border:none;
+  color: white;
+  width:100%;
+}
+
 /* フッター */
 div.footer-img{
   background-image: url('images/footer-img.jpg');
