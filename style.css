@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* ヘッダー */
+div.header-img{
+  background-image: url('images/nav-img.jpg');
+  background-size:cover;
+  height: 380px;
+  padding-left: 50px;
+  display:flex;
+  align-items: flex-end;
+}
+div.header-img h1 {
+  color:white;
+}
+/* フッター */
+div.footer-img{
+  background-image: url('images/footer-img.jpg');
+  background-size:cover;
+  width:100%;
+  height:400px;
+  padding-top: 10%;
+  padding-left: 20%;
+}
+div.footer-img h2 {
+  color: white;
+}
