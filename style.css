@@ -30,6 +30,20 @@ div.header-img h1 {
 	max-width: 740px;
 }
 /****** メイン ******/
+div.block h2 {
+	text-align: center;
+	font-size: 40px;
+}
+.section-block {
+ margin: 40px 60px;
+}
+.section-block h3{
+	font-size: 25px;
+}
+.section-block p {
+	margin-top: 20px;
+	color: dimgray;
+}
 /* フォーム */
 div.hotel-form p.form-title {
 	font-size: 18px;
@@ -66,22 +80,40 @@ button#start{
 	margin: 30px 0 20px 0;
   padding: 10px ;
 }
-.cl-gray {
-  color:gray;
+/* 人物紹介*/
+.people-intro p {
+	width: 280px;
+	margin-top:20px;
+	font-size: 19px;
 }
-div.block h2 {
-	text-align: center;
-	font-size: 40px;
+.people-intro a {
+	display: block;
+	width: 220px;
+	padding: 8px 0;
+	text-align:center;
+	border: 2px solid black;
+	border-radius:5px;
+	color:black;
 }
-.section-block {
- margin: 40px 60px;
+div.people-intro div.fa-quote-left:before{
+	font-size: 20px;
+	color: orange;
 }
-.section-block h3{
-	font-size: 25px;
+p.cl-gray {
+	font-size: 14px;
+  color: gray;
 }
-.section-block p {
-	margin-top: 20px;
-	color: dimgray;
+/* 万一の時説明蘭 */
+ul.list-chk li{
+	font-weight: normal;
+}
+ul.list-chk li:not(:first-child) {
+	margin-top: 30px;
+}
+ul.list-chk .fa-check::before{
+	color: skyblue;
+	margin-right: 25px;
+	font-weight: 550;
 }
 /* フッター */
 div.footer-img{
