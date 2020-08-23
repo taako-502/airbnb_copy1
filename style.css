@@ -7,6 +7,9 @@ html {
 img {
   max-width: 100%;
 }
+.wrapper {
+  max-width: 680px;
+}
 /* ヘッダー */
 div.header-img{
   background-image: url('images/nav-img.jpg');
@@ -27,8 +30,11 @@ button#start{
   border:none;
   color: white;
   width:100%;
+  padding: 10px ;
 }
-
+.cl-gray {
+  color:gray;
+}
 /* フッター */
 div.footer-img{
   background-image: url('images/footer-img.jpg');
