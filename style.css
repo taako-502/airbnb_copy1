@@ -10,8 +10,19 @@ img {
 .wrapper {
   max-width: 680px;
 }
-.block , div.slim-block {
-	margin-top: 50px;
+div.block ,
+div.slim-block {
+	margin-bottom: 100px;
+}
+hr {
+	position: relative;
+	background-color: black;
+	height: 1px;
+	width: 10%;
+	bottom: -8px;
+}
+hr div {
+	margin-top: none;
 }
 /* ヘッダー */
 div.header-img{
@@ -27,7 +38,9 @@ div.header-img{
 div.header-img h1 {
   color:white;
 	display:block;
-	max-width: 740px;
+	max-width: 820px;
+	margin-left: auto;
+	margin-right: auto;
 }
 /****** メイン ******/
 div.block h2 {
@@ -43,6 +56,9 @@ div.block h2 {
 .section-block p {
 	margin-top: 20px;
 	color: dimgray;
+}
+.wide-section {
+	margin: 40px 0;
 }
 /* フォーム */
 div.hotel-form p.form-title {
@@ -72,13 +88,19 @@ div.num-people select {
 	width: 90%;
 }
 button#start{
-  background-color: magenta;
+  background-color: #e31c5f;
   border:none;
 	border-radius: 5px;
   color: white;
   width:100%;
 	margin: 30px 0 20px 0;
   padding: 10px ;
+}
+/* 3ステップでホスティング */
+div.step-three::before {
+	position: relative;
+	top: -16px;
+	font-size: 48px;
 }
 /* 人物紹介*/
 .people-intro p {
@@ -103,7 +125,13 @@ p.cl-gray {
 	font-size: 14px;
   color: gray;
 }
+p.impression {
+	font-style: bold;
+}
 /* 万一の時説明蘭 */
+ul.list-chk {
+	margin:40px 0;
+}
 ul.list-chk li{
 	font-weight: normal;
 }
@@ -114,6 +142,34 @@ ul.list-chk .fa-check::before{
 	color: skyblue;
 	margin-right: 25px;
 	font-weight: 550;
+}
+/* よくある質問 */
+div.faq ul li {
+	list-style: none;
+	border-bottom: 0.2px solid lightgray;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+/* 詳細 */
+div.details-card {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	border: 1px solid lightgray;
+}
+div.details-card img{
+	max-width: 100%;
+	height: auto;
+}
+div.details h2 {
+	font-size: 25px;
+	font-style: bold;
+	text-align: left;
+}
+div.details h3 {
+	font-size: 18px;
+	margin: 5px 0 0 5px;
+	font-style: bold;
 }
 /* フッター */
 div.footer-img{
