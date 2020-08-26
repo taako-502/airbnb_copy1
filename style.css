@@ -145,7 +145,7 @@ ul.list-chk .fa-check::before{
 	font-weight: 550;
 }
 /* よくある質問 */
-div.faq ul li {
+div.faq div.li {
 	list-style: none;
 	border-bottom: 0.2px solid lightgray;
 	margin-top: 30px;
@@ -230,8 +230,8 @@ div.copyright a.lang::before{
 	text-decoration: none!important;
 	margin-right: 15px;
 }
-/* レスポンシブ */
-@media screen and (max-width: 1127px) {
+/****** レスポンシブ ******/
+@media screen and (max-width: 940px) {
 	.wrapper {
 	  max-width: 680px;
 	}
