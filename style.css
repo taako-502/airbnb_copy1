@@ -159,7 +159,7 @@ div.details-card {
 	border: 1px solid lightgray;
 }
 div.details-card img{
-	max-width: 100%;
+	width: 90%;
 	height: auto;
 }
 div.details h2 {
