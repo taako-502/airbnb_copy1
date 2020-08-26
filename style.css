@@ -158,7 +158,7 @@ div.details-card {
 	margin-left: 0;
 	margin-right: 0;
 	padding: 0;
-	border: 1px solid lightgray;
+	border: 0.5px solid lightgray;
 }
 div.details-card img{
 	width: 100%;
@@ -170,9 +170,14 @@ div.details h2 {
 	text-align: left;
 }
 div.details h3 {
-	font-size: 18px;
+	font-size: 14px;
 	margin: 5px 0 0 5px;
-	font-style: bold;
+	font-weight: 500;
+}
+div.details p {
+	margin: 2px 8px 5px 8px;
+	font-size: 14px;
+	color: dimgray;
 }
 /* フッター */
 div.footer-img{
