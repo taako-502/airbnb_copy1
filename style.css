@@ -7,13 +7,6 @@ html {
 img {
   max-width: 100%;
 }
-.wrapper {
-  max-width: 680px;
-}
-div.block ,
-div.slim-block {
-	margin-bottom: 100px;
-}
 main hr {
 	position: relative;
 	background-color: black;
@@ -23,6 +16,10 @@ main hr {
 }
 main hr div {
 	margin-top: none;
+}
+div.block ,
+div.slim-block {
+	margin-bottom: 100px;
 }
 /* ヘッダー */
 div.header-img{
@@ -45,10 +42,12 @@ div.header-img h1 {
 /****** メイン ******/
 div.block h2 {
 	text-align: center;
-	font-size: 40px;
+	font-size: 55px;
+	font-weight: 600;
+	margin-bottom: 40px;
 }
 .section-block {
- margin: 40px 60px;
+	margin: 40px 0;
 }
 .section-block h3{
 	font-size: 25px;
@@ -132,7 +131,7 @@ p.impression {
 }
 /* 万一の時説明蘭 */
 ul.list-chk {
-	margin:40px 0;
+	margin: 40px 0;
 }
 ul.list-chk li{
 	font-weight: normal;
@@ -230,4 +229,17 @@ div.copyright a.lang {
 div.copyright a.lang::before{
 	text-decoration: none!important;
 	margin-right: 15px;
+}
+/* レスポンシブ */
+@media screen and (max-width: 1127px) {
+	.wrapper {
+	  max-width: 680px;
+	}
+	main h2{
+		font-size: 40px;
+	}
+	div.section-block {
+	 margin-right: 60px;
+	 margin-left: 60px;
+	}
 }
