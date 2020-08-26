@@ -239,8 +239,10 @@ footer a {
 	font-size: 14px;
 }
 div.copyright {
-	text-align: center;
-	margin-bottom: 20px;
+	text-align:left;
+	display: flex;
+	flex-direction: row-reverse;
+	padding-left: 30px;
 }
 div.copyright i {
 	margin: 0 15px;
@@ -276,5 +278,10 @@ div.copyright a.lang::before{
 	div.people-intro div.fa-quote-left:before{
 		font-size: 20px;
 		color: orange;
+	}
+	/* フッター */
+	div.copyright {
+		text-align: center;
+		margin-bottom: 20px;
 	}
 }
