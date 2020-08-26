@@ -154,13 +154,14 @@ div.faq ul li {
 }
 /* 詳細 */
 div.details-card {
+	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
 	padding: 0;
 	border: 1px solid lightgray;
 }
 div.details-card img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 div.details h2 {
