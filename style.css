@@ -192,10 +192,10 @@ div.footer-img{
   height:400px;
 }
 div.monetization{
+	width: 430px;
 	position: relative;
 	top: 100px;
 	left: 190px;
-	min-width: 680px;
 }
 div.footer-img h2 {
 	font-size: 60px;
