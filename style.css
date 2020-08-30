@@ -36,10 +36,9 @@ div.image-header {
 div.header-img {
   background-image: url('images/nav-img.jpg');
   width: 100%;
-  height: 600px;
+  height: 550px;
   background-size: cover;
   background-position: center box-sizing:border-box;
-  padding-left: 50px;
 }
 
 div.header-img h1 {
@@ -326,7 +325,16 @@ div.copyright a.lang::before {
 
   div.heading {
     color: white;
+    width: 80%;
     background-color: transparent; /*背景色を透明に*/
+    top: 450px;
+    /* 左右中央寄せ */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    /* 左右中央寄せ ここまで*/
   }
 
   div.hotel-form {
