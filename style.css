@@ -417,6 +417,17 @@ div.copyright a.lang::before {
   }
 
   /* フッター */
+  div.monetization {
+    position: static;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.monetization h2 {
+    width: 100%;
+  }
+
   div.copyright {
     text-align: center;
     margin-bottom: 20px;
