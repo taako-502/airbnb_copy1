@@ -451,10 +451,22 @@ div.copyright a.lang::before {
   }
 }
 @media (max-width:768px) {
+  /* ヘッダー */
+  div.hotel-form {
+    width: 100%;
+    background-color: red:
+  }
+  div.form-row {
+    width: 100%;
+  }
+  div.heading {
+    bottom: 10px;
+  }
   /* 詳細 */
   div.details-card {
     display: flex;
     margin-top: 10px;
+    background-color: red:
   }
 
   div.details-img {
