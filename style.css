@@ -69,12 +69,26 @@ div.hotel-form {
 	margin: 78px 92px 90px 0;
   padding: 10px 10px 0 10px;
 }
+div.form-area {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 div.form-row ,
 div.form-row * {
   width: 100%;
   height: 45px;
   margin: 5px 0;
+}
+
+div.plan {
+  width: 58%;
+  margin-right: 2%;
+}
+
+div.num-people {
+  width: 38%;
+  margin-left: 2%;
 }
 
 /****** メイン ******/
