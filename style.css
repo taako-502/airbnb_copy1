@@ -442,3 +442,24 @@ div.copyright a.lang::before {
     margin-bottom: 20px;
   }
 }
+@media (max-width:768px) {
+  /* 詳細 */
+  div.details-card {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  div.details-img {
+    width: 20%;
+  }
+
+  div.details-img img{
+    width: 76px;
+    height: 76px;
+    object-fit: cover; /* この一行を追加するだけ！ */
+  }
+
+  div.details-sentence {
+    width: 80%;
+  }
+}
