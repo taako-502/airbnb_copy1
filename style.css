@@ -40,7 +40,13 @@ div.header-img {
   background-size: cover;
   background-position: center box-sizing:border-box;
 }
+div.header-sentence {
+  position: absolute;
+  top: 80px;
+  right: 50%;
+}
 
+/* ヘッダーロゴ */
 div.header-img h1 {
   top: -200px;
   color: black;
@@ -52,7 +58,6 @@ div.heading {
   position: absolute;
   background-color: white;
   top: 80px;
-  left: 680px;
   width: 460px;
   height: 120px;
   padding: 10px 10px 0 10px;
@@ -63,7 +68,6 @@ div.hotel-form {
   position: absolute;
   background-color: white;
   top: 110px;
-  left: 680px;
   width: 460px;
   height: auto;
 	margin: 78px 92px 90px 0;
@@ -324,6 +328,10 @@ div.copyright a.lang::before {
 /****** レスポンシブ ******/
 @media screen and (max-width:1128px) {
   /****** ヘッダー ******/
+  div.header-sentence {
+    position: static;
+  }
+
   div.image-header {
     position: static;
   }
