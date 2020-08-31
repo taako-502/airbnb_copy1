@@ -157,7 +157,8 @@ div.people-intro div {
 
 .people-intro a {
   display: block;
-  width: 220px;
+  width: 100%;
+  max-width: 220px;
   padding: 8px 0;
   text-align: center;
   border: 2px solid black;
@@ -404,6 +405,11 @@ div.copyright a.lang::before {
     color: gray;
     border-radius: 5px;
   }
+
+  /****** メイン ******/
+  div.block h2 {
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width:980px) {
@@ -462,6 +468,7 @@ div.copyright a.lang::before {
   div.heading {
     bottom: 10px;
   }
+  /****** メイン ******/
   /* 詳細 */
   div.details-card {
     display: flex;
