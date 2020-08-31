@@ -344,8 +344,10 @@ div.copyright a.lang::before {
   div.heading {
     color: white;
     width: 80%;
+    height: auto;
     background-color: transparent; /*背景色を透明に*/
-    top: 130px;
+    top: 0px;
+    bottom: -35px;
     /* 左右中央寄せ */
     position: absolute;
     left: 50%;
@@ -353,6 +355,9 @@ div.copyright a.lang::before {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     /* 左右中央寄せ ここまで*/
+    /* 下寄せ */
+    display: flex;
+    align-items: flex-end;
   }
 
   div.hotel-form {
@@ -464,9 +469,6 @@ div.copyright a.lang::before {
   }
   div.form-row {
     width: 100%;
-  }
-  div.heading {
-    bottom: 10px;
   }
   /****** メイン ******/
   /* 詳細 */
