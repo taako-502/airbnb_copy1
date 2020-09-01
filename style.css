@@ -347,7 +347,8 @@ div.copyright a.lang::before {
     height: auto;
     background-color: transparent; /*背景色を透明に*/
     top: 0px;
-    bottom: -35px;
+    bottom: 330px;
+    z-index: 100;
     /* 左右中央寄せ */
     position: absolute;
     left: 50%;
